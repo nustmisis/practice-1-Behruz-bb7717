@@ -9,5 +9,7 @@ weight = input()
 height = input()
 
 
-#Ваш кол
-
+weight = float(input("68"))
+height = float(input("172"))
+bmi = weight / (height ** 2)
+print(bmi)
