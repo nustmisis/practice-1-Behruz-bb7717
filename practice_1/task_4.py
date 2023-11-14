@@ -6,3 +6,8 @@
 
 @author: Savant
 """
+x=input()
+summa=0
+for i in x:
+    summa += int(i)
+    print(summa)
